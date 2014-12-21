@@ -1,12 +1,19 @@
 {
+    "name": "Waldema/holmes-web",
     "require": {
         "silex/silex": "~1.2",
-        "symfony/yaml": "~2.6",
+        "symfony/symfony": "~2.6",
         "deralex/yaml-config-service-provider": "~1.0"
     },
     "autoload": {
         "psr-0": {
-        	"": "src/"
+            "": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "waldemarnt",
+            "email": "waldemarnt@gmail.com"
+        }
+    ]
 }
