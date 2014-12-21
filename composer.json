@@ -1,5 +1,5 @@
 {
-    "name": "Waldema/holmes-web",
+    "name": "waldema/holmes-web",
     "require": {
         "silex/silex": "~1.2",
         "symfony/symfony": "~2.6",
