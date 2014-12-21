@@ -1,0 +1,3 @@
+settings:
+    holmes-binaries: 'C:\\java\\holmes.jar'
+    default-nest-image: localhost
