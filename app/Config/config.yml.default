@@ -1,0 +1,5 @@
+settings:
+    holmes-binaries: 'C:\\java\\holmes.jar'
+    default-nest-image: localhost
+    result-web-dir: 'http://localhost/holmes-web/images/matches/'
+    debug: true
