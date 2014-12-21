@@ -27,12 +27,19 @@ settings:
 
 #### Using
 after the installation is done, you can send the image and parameters using a similar url
+
 http://localhost/holmes-web/web/match_images // match_images is the action
+
 Send a post for this url passing this parameters
+
 template: is a big image
+
 nest: is a image to find in the template
+
 width: is the width size of the new image
+
 height: is the height of the new image
+
 preview: is a boolean to show a window with the preview of created image, this preview is opened in the server.
 
 After your post done , you will receive a response like this.
