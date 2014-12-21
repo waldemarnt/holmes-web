@@ -54,7 +54,7 @@ class ImagesController
 	{
 		if(file_exists($imageMatcher->getResultDir())) {
 
-			return "http://localhost/holmes-web/images/matches/".$resultName;
+			return $this->app['config']['settings']['result-web-dir'].$resultName;
 		}
 
 		return false;
